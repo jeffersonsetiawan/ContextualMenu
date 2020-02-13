@@ -1,0 +1,42 @@
+PODS:
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - Texture/Core (2.8.1)
+  - Texture/IGListKit (2.8.1):
+    - IGListDiffKit (~> 4.0)
+    - IGListKit (~> 4.0)
+    - Texture/Core
+
+DEPENDENCIES:
+  - "IGListKit (from `git@github.com:Instagram/IGListKit.git`, commit `f50f3c7ef6020a295ab5c0aa8cfeb3b13340e8b7`)"
+  - "Texture/IGListKit (from `git@github.com:texturegroup/texture.git`, commit `7798440bcf818d62446b53fd81596c987cfad45e`)"
+
+SPEC REPOS:
+  trunk:
+    - IGListDiffKit
+
+EXTERNAL SOURCES:
+  IGListKit:
+    :commit: f50f3c7ef6020a295ab5c0aa8cfeb3b13340e8b7
+    :git: "git@github.com:Instagram/IGListKit.git"
+  Texture:
+    :commit: 7798440bcf818d62446b53fd81596c987cfad45e
+    :git: "git@github.com:texturegroup/texture.git"
+
+CHECKOUT OPTIONS:
+  IGListKit:
+    :commit: f50f3c7ef6020a295ab5c0aa8cfeb3b13340e8b7
+    :git: "git@github.com:Instagram/IGListKit.git"
+  Texture:
+    :commit: 7798440bcf818d62446b53fd81596c987cfad45e
+    :git: "git@github.com:texturegroup/texture.git"
+
+SPEC CHECKSUMS:
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  Texture: 95cfad2ed5e7f06c32e34278c39d386568481f73
+
+PODFILE CHECKSUM: d2890e8096457ec447d1457eaa10b89e90ced818
+
+COCOAPODS: 1.8.4
