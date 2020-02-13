@@ -3,27 +3,48 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27A7A25B4E44060262C639D0 /* Pods_PlayProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F1CB67225FB0F8339FF5D91 /* Pods_PlayProject.framework */; };
 		E5C0EA4123F40998000E5A54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA4023F40998000E5A54 /* AppDelegate.swift */; };
 		E5C0EA4323F40998000E5A54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA4223F40998000E5A54 /* SceneDelegate.swift */; };
 		E5C0EA4523F40998000E5A54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA4423F40998000E5A54 /* ViewController.swift */; };
-		E5C0EA4823F40998000E5A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C0EA4623F40998000E5A54 /* Main.storyboard */; };
 		E5C0EA4A23F4099C000E5A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5C0EA4923F4099C000E5A54 /* Assets.xcassets */; };
 		E5C0EA4D23F4099C000E5A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C0EA4B23F4099C000E5A54 /* LaunchScreen.storyboard */; };
+		E5C0EA5623F40C5A000E5A54 /* UIView+Autolayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA5523F40C5A000E5A54 /* UIView+Autolayout.swift */; };
+		E5C0EA5823F40CC8000E5A54 /* StaticVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA5723F40CC8000E5A54 /* StaticVC.swift */; };
+		E5C0EA5A23F40CDF000E5A54 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA5923F40CDF000E5A54 /* TableVC.swift */; };
+		E5C0EA5C23F40CEE000E5A54 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA5B23F40CEE000E5A54 /* CollectionVC.swift */; };
+		E5C0EA5E23F40D25000E5A54 /* IGVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA5D23F40D25000E5A54 /* IGVC.swift */; };
+		E5C0EA6023F41E33000E5A54 /* Diffable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA5F23F41E32000E5A54 /* Diffable.swift */; };
+		E5C0EA6223F42CD8000E5A54 /* TextureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA6123F42CD8000E5A54 /* TextureVC.swift */; };
+		E5C0EA6423F43029000E5A54 /* TextureIGListKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA6323F43029000E5A54 /* TextureIGListKitVC.swift */; };
+		E5C0EA6723F43046000E5A54 /* IGDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C0EA6623F43046000E5A54 /* IGDataWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E890001D1AEB0A4E40BDCF9 /* Pods-PlayProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayProject.debug.xcconfig"; path = "Target Support Files/Pods-PlayProject/Pods-PlayProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1CB67225FB0F8339FF5D91 /* Pods_PlayProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C0EA3D23F40998000E5A54 /* PlayProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5C0EA4023F40998000E5A54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5C0EA4223F40998000E5A54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E5C0EA4423F40998000E5A54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5C0EA4723F40998000E5A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5C0EA4923F4099C000E5A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5C0EA4C23F4099C000E5A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5C0EA4E23F4099C000E5A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5C0EA5523F40C5A000E5A54 /* UIView+Autolayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Autolayout.swift"; sourceTree = "<group>"; };
+		E5C0EA5723F40CC8000E5A54 /* StaticVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticVC.swift; sourceTree = "<group>"; };
+		E5C0EA5923F40CDF000E5A54 /* TableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
+		E5C0EA5B23F40CEE000E5A54 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		E5C0EA5D23F40D25000E5A54 /* IGVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGVC.swift; sourceTree = "<group>"; };
+		E5C0EA5F23F41E32000E5A54 /* Diffable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diffable.swift; sourceTree = "<group>"; };
+		E5C0EA6123F42CD8000E5A54 /* TextureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureVC.swift; sourceTree = "<group>"; };
+		E5C0EA6323F43029000E5A54 /* TextureIGListKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextureIGListKitVC.swift; sourceTree = "<group>"; };
+		E5C0EA6623F43046000E5A54 /* IGDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGDataWrapper.swift; sourceTree = "<group>"; };
+		E5C0EA6823F440D4000E5A54 /* PlayProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlayProject.entitlements; sourceTree = "<group>"; };
+		F53C0EC986C47972EFF36C8D /* Pods-PlayProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayProject.release.xcconfig"; path = "Target Support Files/Pods-PlayProject/Pods-PlayProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27A7A25B4E44060262C639D0 /* Pods_PlayProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DE0B0F9990D54915E6CE0C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E890001D1AEB0A4E40BDCF9 /* Pods-PlayProject.debug.xcconfig */,
+				F53C0EC986C47972EFF36C8D /* Pods-PlayProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E5C0EA3423F40998000E5A54 = {
 			isa = PBXGroup;
 			children = (
 				E5C0EA3F23F40998000E5A54 /* PlayProject */,
 				E5C0EA3E23F40998000E5A54 /* Products */,
+				1DE0B0F9990D54915E6CE0C4 /* Pods */,
+				FA0E54F62193473AE282C35C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +89,48 @@
 		E5C0EA3F23F40998000E5A54 /* PlayProject */ = {
 			isa = PBXGroup;
 			children = (
+				E5C0EA6823F440D4000E5A54 /* PlayProject.entitlements */,
+				E5C0EA6523F43041000E5A54 /* Model */,
+				E5C0EA5423F40BAA000E5A54 /* Utils */,
 				E5C0EA4023F40998000E5A54 /* AppDelegate.swift */,
 				E5C0EA4223F40998000E5A54 /* SceneDelegate.swift */,
 				E5C0EA4423F40998000E5A54 /* ViewController.swift */,
-				E5C0EA4623F40998000E5A54 /* Main.storyboard */,
 				E5C0EA4923F4099C000E5A54 /* Assets.xcassets */,
 				E5C0EA4B23F4099C000E5A54 /* LaunchScreen.storyboard */,
 				E5C0EA4E23F4099C000E5A54 /* Info.plist */,
+				E5C0EA5723F40CC8000E5A54 /* StaticVC.swift */,
+				E5C0EA5923F40CDF000E5A54 /* TableVC.swift */,
+				E5C0EA5B23F40CEE000E5A54 /* CollectionVC.swift */,
+				E5C0EA5D23F40D25000E5A54 /* IGVC.swift */,
+				E5C0EA6123F42CD8000E5A54 /* TextureVC.swift */,
+				E5C0EA6323F43029000E5A54 /* TextureIGListKitVC.swift */,
 			);
 			path = PlayProject;
+			sourceTree = "<group>";
+		};
+		E5C0EA5423F40BAA000E5A54 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E5C0EA5523F40C5A000E5A54 /* UIView+Autolayout.swift */,
+				E5C0EA5F23F41E32000E5A54 /* Diffable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E5C0EA6523F43041000E5A54 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E5C0EA6623F43046000E5A54 /* IGDataWrapper.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA0E54F62193473AE282C35C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F1CB67225FB0F8339FF5D91 /* Pods_PlayProject.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5C0EA5123F4099C000E5A54 /* Build configuration list for PBXNativeTarget "PlayProject" */;
 			buildPhases = (
+				EA1F9B19351B282BC825524B /* [CP] Check Pods Manifest.lock */,
 				E5C0EA3923F40998000E5A54 /* Sources */,
 				E5C0EA3A23F40998000E5A54 /* Frameworks */,
 				E5C0EA3B23F40998000E5A54 /* Resources */,
+				58A753F6CC497ACD99391DBB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +195,69 @@
 			files = (
 				E5C0EA4D23F4099C000E5A54 /* LaunchScreen.storyboard in Resources */,
 				E5C0EA4A23F4099C000E5A54 /* Assets.xcassets in Resources */,
-				E5C0EA4823F40998000E5A54 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58A753F6CC497ACD99391DBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayProject/Pods-PlayProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayProject/Pods-PlayProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayProject/Pods-PlayProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA1F9B19351B282BC825524B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E5C0EA3923F40998000E5A54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5C0EA5823F40CC8000E5A54 /* StaticVC.swift in Sources */,
+				E5C0EA6723F43046000E5A54 /* IGDataWrapper.swift in Sources */,
 				E5C0EA4523F40998000E5A54 /* ViewController.swift in Sources */,
+				E5C0EA6423F43029000E5A54 /* TextureIGListKitVC.swift in Sources */,
+				E5C0EA5623F40C5A000E5A54 /* UIView+Autolayout.swift in Sources */,
+				E5C0EA6023F41E33000E5A54 /* Diffable.swift in Sources */,
+				E5C0EA6223F42CD8000E5A54 /* TextureVC.swift in Sources */,
+				E5C0EA5A23F40CDF000E5A54 /* TableVC.swift in Sources */,
+				E5C0EA5C23F40CEE000E5A54 /* CollectionVC.swift in Sources */,
 				E5C0EA4123F40998000E5A54 /* AppDelegate.swift in Sources */,
+				E5C0EA5E23F40D25000E5A54 /* IGVC.swift in Sources */,
 				E5C0EA4323F40998000E5A54 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +265,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E5C0EA4623F40998000E5A54 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5C0EA4723F40998000E5A54 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5C0EA4B23F4099C000E5A54 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,9 +392,13 @@
 		};
 		E5C0EA5223F4099C000E5A54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E890001D1AEB0A4E40BDCF9 /* Pods-PlayProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlayProject/PlayProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = Y4SHBBLB3Q;
 				INFOPLIST_FILE = PlayProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +406,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeffersonsetiawan.PlayProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,9 +414,13 @@
 		};
 		E5C0EA5323F4099C000E5A54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F53C0EC986C47972EFF36C8D /* Pods-PlayProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlayProject/PlayProject.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				DEVELOPMENT_TEAM = Y4SHBBLB3Q;
 				INFOPLIST_FILE = PlayProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +428,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jeffersonsetiawan.PlayProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
